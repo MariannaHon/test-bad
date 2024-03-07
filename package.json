@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "fs-readdir-sync-with-file-types": "^1.0.5",
+    "node-fetch": "^3.3.2",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }
