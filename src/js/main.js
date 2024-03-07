@@ -30,14 +30,14 @@ const processFile = () => {
       console.log('Максимальне число:', max);
       console.log('Мінімальне число:', min);
       console.log('В порядку возрастання:', increase);
-      console.log('В порядку возрастання:', decrease);
+      console.log('В порядку зменшення:', decrease);
       console.log('Медіана:', median);
       console.log('Середнє арифметичне:', average);
 
       document.querySelector('.maxN').innerText = 'Максимальне число: ' + max.toString();
       document.querySelector('.minN').innerText = 'Мінімальне число: ' + min.toString();
       document.querySelector('.increaseN').innerText = 'В порядку возрастання: ' + increase.toString();
-      document.querySelector('.decreaseN').innerText = 'В порядку возрастання: ' + decrease.toString();
+      document.querySelector('.decreaseN').innerText = 'В порядку зменшення: ' + decrease.toString();
       document.querySelector('.medianN').innerText = 'Медіана: ' + median.toString();
       document.querySelector('.averageN').innerText = 'Середнє арифметичне: ' + average.toString();
     };
